@@ -11,4 +11,18 @@ import "fmt"
 //that is the starting point for all programs
 func main() {
 	fmt.Println("Hello, world!")
+
+	//declaring and then initialising a variable
+	var msg string
+	msg = "Hello!"
+
+	fmt.Println(msg)
+
+	//variable decalred AND initialised
+	newMsg := "Hi there!"
+
+	fmt.Println(newMsg)
+
+	//printing a variable
+	fmt.Printf("Yeah!")
 }
